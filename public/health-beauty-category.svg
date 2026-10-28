@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" fill="none">
+  <defs>
+    <linearGradient id="background" x1="84" y1="56" x2="720" y2="744" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8EDE5"/>
+      <stop offset="1" stop-color="#EAD9CD"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="279" y1="244" x2="500" y2="591" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#E7D9CA"/>
+    </linearGradient>
+    <linearGradient id="jar" x1="504" y1="393" x2="664" y2="613" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7C6AC"/>
+      <stop offset="1" stop-color="#C99E80"/>
+    </linearGradient>
+    <filter id="shadow" x="147" y="163" width="546" height="533" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <path fill="url(#background)" d="M0 0h800v800H0z"/>
+  <circle cx="621" cy="180" r="118" fill="#FFF9F2" fill-opacity=".55"/>
+  <ellipse cx="423" cy="627" fill="#765C4D" fill-opacity=".16" rx="238" ry="34" filter="url(#shadow)"/>
+  <path d="M172 555c-21-88-3-157 51-206 6 78-9 146-51 206Z" fill="#8E9A77"/>
+  <path d="M189 548c31-83 76-129 136-138-26 66-72 111-136 138Z" fill="#A8AE8F"/>
+  <path d="M205 571c-3-72 19-120 66-146 0 58-22 107-66 146Z" fill="#7E8D6E"/>
+  <path d="M225 567c36-57 79-84 130-80-34 45-77 71-130 80Z" fill="#B5B995"/>
+  <path d="M355 211h97v57h-97z" fill="#B98F73"/>
+  <rect x="335" y="252" width="137" height="354" rx="34" fill="url(#bottle)"/>
+  <rect x="351" y="269" width="105" height="318" rx="25" stroke="#D7C7B8" stroke-width="3"/>
+  <rect x="361" y="188" width="85" height="36" rx="8" fill="#D5B69D"/>
+  <rect x="371" y="170" width="65" height="26" rx="7" fill="#E8D5C3"/>
+  <rect x="292" y="346" width="211" height="53" rx="13" fill="#F4E9DF"/>
+  <path d="M334 372c27-18 94-18 126 0" stroke="#C1A48C" stroke-width="3" stroke-linecap="round"/>
+  <rect x="513" y="408" width="145" height="190" rx="34" fill="url(#jar)"/>
+  <rect x="506" y="383" width="159" height="52" rx="15" fill="#DCC3AE"/>
+  <path d="M536 501c24-14 73-14 99 0" stroke="#F3E5D8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="214" y="441" width="93" height="157" rx="27" fill="#D8C8B9"/>
+  <rect x="230" y="420" width="61" height="35" rx="9" fill="#B89B83"/>
+  <path d="M241 512c14-9 34-9 46 0" stroke="#F3E8DE" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="414" cy="669" fill="#765C4D" fill-opacity=".12" rx="244" ry="17"/>
+</svg>
